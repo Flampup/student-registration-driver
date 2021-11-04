@@ -22,12 +22,12 @@ public class Main {
         csit.addStudent(s2);
         arts.addStudent(s3);
         //set module courses
-
         spanish.addCourse(arts);
         maths.addCourse(arts);
         maths.addCourse(csit);
         programming.addCourse(csit);
 
+        //print all information
         System.out.println(csit);
         System.out.println(arts);
         System.out.println(spanish);

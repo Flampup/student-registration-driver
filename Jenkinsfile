@@ -11,12 +11,6 @@ pipeline {
                 bat './gradlew build'
             }
         }
-        stage('Run') {
-            steps {
-                bat './gradlew run'
-
-            }
-        }
     }
     post {
         always {

@@ -14,6 +14,7 @@ pipeline {
         stage('Run') {
             steps {
                 bat './gradlew bootRun'
+
             }
         }
     }
